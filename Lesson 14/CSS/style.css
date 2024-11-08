@@ -1,0 +1,52 @@
+article p {
+    background: blue;
+    color: white;
+    padding: 20px;
+}
+article > p {
+    background: red;
+}
+article ~ p {
+    background: purple;
+    color: white;
+    padding: 20px;
+}
+article + p {
+    background: orange;
+}
+input:out-of-range {
+    border: 3px solid red;
+
+}
+span:first-of-type {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+form {
+    margin-top: 20px;
+}
+input:invalid {
+    border:2px solid red;
+
+}
+input:valid {
+    border: 2px, solid green;
+}
+p::first-line {
+    color: blue;
+}
+p::first-letter {
+    font-size: 40px;
+}
+h1::before{
+    content: url("../IMAGES/G.png");
+
+}
+h4::after {
+    content: url("../IMAGES/G.png");
+}
+::selection {
+    color: white;
+    background: blue;
+}
